@@ -1,42 +1,50 @@
 # Solvanti
 
-**Stage:** Public website concept / visual prototype  
-**Venture category:** Home energy resilience and planning  
-**Parent studio:** Joseph Jilovec Venture Studio
+Household energy & resilience planning. An early-stage venture from Joseph Jilovec Venture Studio.
 
-## Website design direction
+## Positioning
 
-Cinematic dark storytelling, amber light, energy-orb visual, large type, stacked narrative sections.
+Efficiency, solar and backup power solve different problems. Solvanti is a planning concept that helps homeowners organize their needs, compare assumptions and prepare better questions for qualified providers.
 
-## First-page architecture
+### Initial audience
 
-Immersive hero → challenge → possibility → three-step energy-planning framework.
+- **Homeowners comparing options:** People considering efficiency upgrades, solar or storage who want to make assumptions visible before committing.
+- **Households planning for outages:** Owners who need to define essential loads and tolerable interruptions before requesting a backup-power design.
+- **Qualified energy professionals:** Assessors and licensed contractors interested in receiving a more organized account of household goals.
 
-## Current implementation
+## Proposed first offer
 
-- `index.html` is a self-contained, responsive HTML/CSS landing page.
-- The page has working in-page navigation, descriptive copy, and simple custom CSS/SVG concept artwork.
-- Illustrative dashboard content and other design mockups are **not live services**.
-- No customer-data collection, payments, third-party tracking, or external API keys.
-- Motion is minimal and respects reduced-motion preferences.
-- These visuals are art-direction placeholders; final photography, high-resolution imagery, and polished assets will be developed during the dedicated design phase.
+**The Household Energy Brief** — A proposed planning engagement for one owner-occupied home, using household-supplied information and a clearly documented set of questions.
 
-## Run locally
+- **Needs & usage summary:** Organize billing periods, household changes and priorities. Distinguish consumption from the price paid for it.
+- **Options comparison framework:** Compare efficiency, solar and backup pathways using visible assumptions, missing information and contractor questions.
+- **A provider-ready checklist:** Identify the property, tariff, equipment and site information a qualified assessor or installer would need.
 
-Open `index.html` in a modern browser, or serve the folder using any static HTTP server.
+## Proposed validation milestones
 
-## Deploy to Vercel
+- **Learn from real decisions:** Proposed discovery: interview 10 homeowners who are comparing efficiency or backup-power options.
+- **Test the planning brief:** Review 5 sample household briefs with qualified energy professionals in one initial service region.
+- **Check decision quality:** Measure whether homeowners can explain trade-offs and providers receive the information they need. Savings, payback and uptime remain unverified.
 
-Import this public repository into Vercel as a static site (Framework Preset: **Other**). No build command is required; the repository root contains `index.html`. Review the project settings and deployment preview before connecting a custom domain.
+These are planning targets, not achieved results. Availability, scope, partners and commercial terms have not been validated or established.
 
-## Next design iteration
+## Website
 
-Commission architectural solar/storage imagery, validate homeowner offer and regional partners, add educational energy planning calculator with sourced assumptions.
+- Buildless HTML/CSS/JavaScript; serve this repository root with any static server.
+- Responsive navigation, native FAQ disclosures, and a browser-local inquiry builder.
+- No submissions, analytics, tracking, payments, accounts, API integrations or persistent storage.
+- The inquiry builder creates an editable brief. Copy it or open an email draft; the visitor sends it themselves.
+- Keyboard navigation, form labels, focus outlines, skip link and reduced-motion support.
+- Hero raster asset is AI-generated concept imagery, optimized as WebP. It is not documentary evidence of a site, service or product. See `assets/IMAGE_NOTES.md`.
 
-## Confidential planning
+## Deployment
 
-Keep financial models, internal strategy, pricing experiments, private partners and proprietary implementation details in the private `josephjilovec/priv.venturefiles` repository, **not** in this public repo.
+Preserve the existing Vercel project and domains. Framework: Other; no build command; publish the repository root. Deployments depend on the repository's hosting integration.
 
-## Important
+## Validation
 
-The venture name is a working brand pending trademark/domain clearance. This page is a concept preview, not a claim that services, inventory, software integrations, or regulated offerings are operational.
+Check JavaScript syntax, internal anchors, asset existence and responsive layout. Run a browser preview to exercise mobile navigation, inquiry preparation, edits, copying and FAQ interactions. The website has no live service bookings.
+
+## Public scope
+
+Keep confidential financial models, pricing experiments and partner negotiations in private planning repositories. Working brand and pilot service remain subject to validation before commercial launch.
